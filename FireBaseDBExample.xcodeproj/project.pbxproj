@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723A7C676B34E8F2F0CBBF7D /* Pods_FireBaseDBExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD05E4796E4C63E4AAD96A3 /* Pods_FireBaseDBExample.framework */; };
 		8F541116267904E7007F1DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F541115267904E7007F1DB6 /* AppDelegate.swift */; };
 		8F541118267904E7007F1DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F541117267904E7007F1DB6 /* SceneDelegate.swift */; };
 		8F54111A267904E7007F1DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F541119267904E7007F1DB6 /* ViewController.swift */; };
 		8F54111D267904E7007F1DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F54111B267904E7007F1DB6 /* Main.storyboard */; };
 		8F54111F267904E8007F1DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F54111E267904E8007F1DB6 /* Assets.xcassets */; };
 		8F541122267904E8007F1DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F541120267904E8007F1DB6 /* LaunchScreen.storyboard */; };
+		8F54112A267905C5007F1DB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F541129267905C5007F1DB6 /* GoogleService-Info.plist */; };
+		8F54112C2679C656007F1DB6 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F54112B2679C656007F1DB6 /* ViewControllerTableViewCell.swift */; };
+		8F5411322679C700007F1DB6 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5411312679C700007F1DB6 /* ArtistModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CFF1F2991AF55BED8223E46 /* Pods-FireBaseDBExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseDBExample.debug.xcconfig"; path = "Target Support Files/Pods-FireBaseDBExample/Pods-FireBaseDBExample.debug.xcconfig"; sourceTree = "<group>"; };
+		40B8E6AD96204C4AE61336AD /* Pods-FireBaseDBExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseDBExample.release.xcconfig"; path = "Target Support Files/Pods-FireBaseDBExample/Pods-FireBaseDBExample.release.xcconfig"; sourceTree = "<group>"; };
+		5FD05E4796E4C63E4AAD96A3 /* Pods_FireBaseDBExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseDBExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F541112267904E7007F1DB6 /* FireBaseDBExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseDBExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F541115267904E7007F1DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F541117267904E7007F1DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		8F54111E267904E8007F1DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F541121267904E8007F1DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F541123267904E8007F1DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F541129267905C5007F1DB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F54112B2679C656007F1DB6 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		8F5411312679C700007F1DB6 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723A7C676B34E8F2F0CBBF7D /* Pods_FireBaseDBExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AD4654ECE38CE41CC8E7597 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF1F2991AF55BED8223E46 /* Pods-FireBaseDBExample.debug.xcconfig */,
+				40B8E6AD96204C4AE61336AD /* Pods-FireBaseDBExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D50157CA57718067F915CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD05E4796E4C63E4AAD96A3 /* Pods_FireBaseDBExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F541109267904E7007F1DB6 = {
 			isa = PBXGroup;
 			children = (
 				8F541114267904E7007F1DB6 /* FireBaseDBExample */,
 				8F541113267904E7007F1DB6 /* Products */,
+				4AD4654ECE38CE41CC8E7597 /* Pods */,
+				4D50157CA57718067F915CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +89,13 @@
 				8F541115267904E7007F1DB6 /* AppDelegate.swift */,
 				8F541117267904E7007F1DB6 /* SceneDelegate.swift */,
 				8F541119267904E7007F1DB6 /* ViewController.swift */,
+				8F541129267905C5007F1DB6 /* GoogleService-Info.plist */,
 				8F54111B267904E7007F1DB6 /* Main.storyboard */,
+				8F54112B2679C656007F1DB6 /* ViewControllerTableViewCell.swift */,
 				8F54111E267904E8007F1DB6 /* Assets.xcassets */,
 				8F541120267904E8007F1DB6 /* LaunchScreen.storyboard */,
 				8F541123267904E8007F1DB6 /* Info.plist */,
+				8F5411312679C700007F1DB6 /* ArtistModel.swift */,
 			);
 			path = FireBaseDBExample;
 			sourceTree = "<group>";
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F541126267904E8007F1DB6 /* Build configuration list for PBXNativeTarget "FireBaseDBExample" */;
 			buildPhases = (
+				A53A199302FF3CC3645E4CE2 /* [CP] Check Pods Manifest.lock */,
 				8F54110E267904E7007F1DB6 /* Sources */,
 				8F54110F267904E7007F1DB6 /* Frameworks */,
 				8F541110267904E7007F1DB6 /* Resources */,
+				3DD0F6E3389EBFC106A27F92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +160,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F541122267904E8007F1DB6 /* LaunchScreen.storyboard in Resources */,
+				8F54112A267905C5007F1DB6 /* GoogleService-Info.plist in Resources */,
 				8F54111F267904E8007F1DB6 /* Assets.xcassets in Resources */,
 				8F54111D267904E7007F1DB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD0F6E3389EBFC106A27F92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseDBExample/Pods-FireBaseDBExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseDBExample/Pods-FireBaseDBExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireBaseDBExample/Pods-FireBaseDBExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53A199302FF3CC3645E4CE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBaseDBExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F54110E267904E7007F1DB6 /* Sources */ = {
@@ -139,6 +217,8 @@
 			files = (
 				8F54111A267904E7007F1DB6 /* ViewController.swift in Sources */,
 				8F541116267904E7007F1DB6 /* AppDelegate.swift in Sources */,
+				8F5411322679C700007F1DB6 /* ArtistModel.swift in Sources */,
+				8F54112C2679C656007F1DB6 /* ViewControllerTableViewCell.swift in Sources */,
 				8F541118267904E7007F1DB6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +363,7 @@
 		};
 		8F541127267904E8007F1DB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFF1F2991AF55BED8223E46 /* Pods-FireBaseDBExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		8F541128267904E8007F1DB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B8E6AD96204C4AE61336AD /* Pods-FireBaseDBExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
